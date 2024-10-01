@@ -1,0 +1,16 @@
+{
+  "organisationNumber": "string",
+  "submitterId": "string",
+  "category": "NORMAL",
+  "year": 2024,
+  "taxationPeriodType": "JAN_FEB",
+  "timeOfSubmission": "2024-10-01T14:58:52.366Z",
+  "vatLines": {
+    "vatLines": [
+      {
+        "vatCode": "1",
+        "amount": -1000
+      }
+    ]
+  }
+}
