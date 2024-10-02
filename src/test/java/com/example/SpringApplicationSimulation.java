@@ -14,6 +14,8 @@ public class SpringApplicationSimulation extends Simulation {
     {
         setUp(
             new ReceptionControllerSimulation().scenarioBuilder()
+                .injectOpen(atOnceUsers(1)),
+            new RetrievingControllerSimulation().scenarioBuilder()
                 .injectOpen(atOnceUsers(1))
         ).protocols(httpProtocol);
     }
